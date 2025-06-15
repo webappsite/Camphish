@@ -1,8 +1,5 @@
-Grab cam shots & GPS location from target's phone front camera or PC webcam just sending a link.
-
-
-This succinctly captures the core functionality: hosting a fake webpage (via PHP server + tunnel), prompting victims for camera (and optionally GPS) permissions, then capturing their webcam images and location—simply by sharing the generated link.
- 
+# CamPhish
+Grab cam shots from target's phone front camera or PC webcam just sending a link.
 ### [TERMUX] Instagram Install Comments
 
 ```
@@ -29,19 +26,9 @@ cloudflared tunnel --url localhost:5000
 ```
 
 
-Hosts a fake webpage using a built-in PHP server and tunnel (ngrok or Cloudflare)
+Hosts a fake webpage using a server and tunnel (ngrok or Cloudflare)
 
 Requests and captures webcam snapshots from the target
-
-Collects GPS location data, including coordinates and accuracy
-
-Offers multiple webpage templates, such as Festival Wishing, Live YouTube TV, and an Online Meeting (beta)
-
-Includes a cleanup script to remove logs, images, and location data  
-
-
-Supported platforms include Kali Linux, Termux, MacOS, Ubuntu, Parrot OS, and Windows WSL  .
-
 ## 📌 Contact Me  
 
 <a href="https://youtube.com/@zerodarknexus">
